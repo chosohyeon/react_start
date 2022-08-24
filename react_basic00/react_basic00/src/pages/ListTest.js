@@ -4,6 +4,12 @@ const DATA = [
     { id: 3, name: '김밥', age: 31, sleep: true },
 ]
 
+const detail = () => {
+    return(
+        <h2>DATA[0].title</h2>
+    )
+}
+
 const List = () => {
     return (
         <ul>
